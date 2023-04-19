@@ -3,7 +3,7 @@ from datetime import timedelta
 
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "thanhdz"
+app.config["SECRET_KEY"] = "dinhtien"
 app.permanent_session_lifetime = timedelta(minutes=1)
 
 
